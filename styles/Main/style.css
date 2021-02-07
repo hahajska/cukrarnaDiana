@@ -1,0 +1,83 @@
+.main_Content {
+  height: 92.5vh;
+  z-index: 3;
+}
+
+.main_Content .bigText-box {
+  padding-top: 3rem;
+}
+
+.main_Content .bigText-box .bigText {
+  font-size: 18rem;
+  line-height: 15rem;
+}
+
+.main_Content2 {
+  height: 92.5vh;
+  background: #614f4f;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow-x: hidden;
+}
+
+.main_Content2 .cakeAbsolute1 {
+  height: 22rem;
+  width: 40rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: -1rem;
+  z-index: 1;
+}
+
+.main_Content2 .cakeAbsolute {
+  height: 22rem;
+  width: 40rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: 2rem;
+  z-index: 1;
+}
+
+.informace2 {
+  height: 100vh;
+  background: #614f4f;
+}
+
+.informace {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.informace .swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.informace .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+}
+/*# sourceMappingURL=style.css.map */

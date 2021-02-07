@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+
+// font-family: 'Oswald', sans-serif;
+// font-family: 'Montserrat', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+  scroll-behavior: smooth;
+  a {
+    text-decoration: none !important;
+  }
+}
+
+//colors
+$main_b: #0079e9;
+$second_b: #00a3fc;
+$third_b: #00c4e5;
+$dark_white: #f5f5f5;
+
+//font-colors
+$black: #080808;
+$grey: #424656;
+$white: #fff;

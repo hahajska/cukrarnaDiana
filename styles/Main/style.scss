@@ -1,0 +1,58 @@
+.main_Content {
+  height: 92.5vh;
+  z-index: 3;
+  .bigText-box {
+    padding-top: 3rem;
+    .bigText {
+      font-size: 18rem;
+      line-height: 15rem;
+    }
+  }
+}
+.main_Content2 {
+  height: 92.5vh;
+  background: rgb(97, 79, 79);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+  .cakeAbsolute1 {
+    height: 22rem;
+    width: 40rem;
+    object-fit: cover;
+    margin-top: -1rem;
+    z-index: 1;
+  }
+  .cakeAbsolute {
+    height: 22rem;
+    width: 40rem;
+    object-fit: cover;
+    margin-top: 2rem;
+    z-index: 1;
+  }
+}
+
+//informace
+.informace2 {
+  height: 100vh;
+  background: rgb(97, 79, 79);
+} //swiper
+.informace {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+  }
+}

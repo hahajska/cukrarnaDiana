@@ -1,0 +1,40 @@
+.main_Nav {
+  background: #d3bcbc;
+  height: 7.5vh;
+  text-align: center;
+}
+
+.main_Nav ul {
+  padding-right: 10rem;
+}
+
+.main_Nav ul li {
+  padding-top: 1.5rem;
+  display: inline-block;
+}
+
+.main_Nav ul li a {
+  padding: 0rem 2rem;
+}
+
+.main_Nav ul li a:hover {
+  color: white;
+}
+
+.menu-btn {
+  display: none;
+}
+
+@media (max-width: 790px) {
+  .menu-btn {
+    display: block;
+    position: absolute;
+    top: 1.75rem;
+    right: 1rem;
+    cursor: pointer;
+  }
+  ul {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
