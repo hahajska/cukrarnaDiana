@@ -12,6 +12,7 @@
   background: transparent;
   height: 7.5vh;
   text-align: center;
+  font-family: "Caveat", cursive;
 }
 
 .uvodka .navbar-sekce ul li {
@@ -21,10 +22,12 @@
 
 .uvodka .navbar-sekce ul li a {
   padding: 0rem 2rem;
+  font-size: 19px;
+  color: white;
 }
 
 .uvodka .navbar-sekce ul li a:hover {
-  color: white;
+  color: #1c26a8;
 }
 
 @media (max-width: 790px) {

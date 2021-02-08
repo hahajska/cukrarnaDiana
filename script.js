@@ -58,14 +58,43 @@ changeColor2.to(".informace", {
 //kafe
 let moveUpper = gsap.timeline({
   scrollTrigger: {
-    trigger: ".kafe-img",
-    start: "bottom 100%",
-    end: "bottom 80%",
+    trigger: ".kafe-start",
+    start: "bottom 64.5%",
+    end: "bottom 50%",
     scrub: 1,
-    markers: true,
+    markers: false,
     toggleActions: "play none reverse none",
   },
 });
-moveUpper.to(".kafe-img", {
-  y: "-30%",
+moveUpper.to(".cake1 , .cake2,  .cake5 , .cake7", {
+  y: "-70px",
+});
+//
+
+let moveUpper2 = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".kafe-start",
+    start: "bottom 64.5%",
+    end: "bottom 30%",
+    scrub: 1,
+    markers: false,
+    toggleActions: "play none reverse none",
+  },
+});
+moveUpper2.to(".cake3 , .cake6", {
+  y: "-45px",
+});
+
+let moveUpper3 = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".kafe-start",
+    start: "bottom 64.5%",
+    end: "bottom 50%",
+    scrub: 1,
+    markers: false,
+    toggleActions: "play none reverse none",
+  },
+});
+moveUpper3.to(".cake4", {
+  y: "-55px",
 });

@@ -1,35 +1,107 @@
 .uvodka {
   min-height: 100vh;
-  background: lightcoral;
   overflow: hidden;
+  background: #a7ddeb;
+  z-index: 5;
 }
 
-.uvodka .navbar-sekce {
-  background: transparent;
-  height: 7.5vh;
-  text-align: center;
-}
-
-.uvodka .navbar-sekce ul li {
-  padding-top: 1.5rem;
-  display: inline-block;
-}
-
-.uvodka .navbar-sekce ul li a {
-  padding: 0rem 2rem;
-}
-
-.uvodka .navbar-sekce ul li a:hover {
-  color: white;
-}
-
-.uvodka img {
+.uvodka .image-box .cake1 {
   position: absolute;
-  height: 30vh;
-  bottom: -20%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  height: 10rem;
+  left: 5%;
+  top: 10%;
+  z-index: -1;
+}
+
+.uvodka .image-box .cake2 {
+  position: absolute;
+  height: 10rem;
+  top: 80%;
+  right: 10%;
+  z-index: -1;
+}
+
+.uvodka .image-box .cake3 {
+  position: absolute;
+  height: 10rem;
+  left: 23%;
+  bottom: -1%;
+}
+
+.uvodka .image-box .cake4 {
+  position: absolute;
+  height: 10rem;
+  left: 17.5%;
+  top: 45%;
+  z-index: -1;
+}
+
+.uvodka .image-box .cake5 {
+  position: absolute;
+  height: 10rem;
+  top: 5%;
+  right: 7%;
+  z-index: -1;
+}
+
+.uvodka .image-box .cake6 {
+  position: absolute;
+  height: 10rem;
+  top: 50%;
+  z-index: -1;
+  left: 73%;
+}
+
+.uvodka .image-box .cake7 {
+  position: absolute;
+  height: 10rem;
+  left: 5%;
+  bottom: 10%;
+  z-index: -1;
+}
+
+.uvodka .text-box {
+  margin-top: 7.5vh;
+  font-family: "Dancing Script", cursive;
+  z-index: 5;
+  color: #f19100;
+}
+
+.uvodka .text-box h1 {
+  font-size: 18rem;
+}
+
+.uvodka .text-box h2 {
+  font-size: 16rem;
+  margin-top: -7.5rem;
+}
+
+.uvodka .text-box h3 {
+  font-size: 14rem;
+  margin-top: -6rem;
+}
+
+.uvodka .text-box p {
+  font-size: 24px;
+  padding: 0rem 20%;
+}
+
+.uvodka .btn {
+  background: #2a98fe;
+  border-radius: 25px;
+  padding: 0.2rem 2.5rem 0.2rem 2.5rem;
+  font-size: 24px;
+  margin-top: 2rem;
+  color: #fff;
+  --animate-duration: 1.5s;
+  font-family: "Dancing Script", cursive;
+  -webkit-transition: 0.5s all ease-in-out;
+  transition: 0.5s all ease-in-out;
+}
+
+.uvodka .btn:hover {
+  background: #0079e9;
+  color: #fff;
 }
 
 .main_Content {

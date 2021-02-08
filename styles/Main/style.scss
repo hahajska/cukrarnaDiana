@@ -1,31 +1,111 @@
+//colors
+$main_b: #0079e9;
+$second_b: #2a98fe;
+//
+////
+////
+////
+////
+////
+////
+////
+////
+////
+//
 .uvodka {
   min-height: 100vh;
-  background: lightcoral;
   overflow: hidden;
-  .navbar-sekce {
-    background: transparent;
-    height: 7.5vh;
-    text-align: center;
-    ul {
-      li {
-        padding-top: 1.5rem;
-        display: inline-block;
-        a {
-          padding: 0rem 2rem;
-          &:hover {
-            color: white;
-          }
-        }
-      }
+  background: #a7ddeb;
+  z-index: 5;
+
+  .image-box {
+    .cake1 {
+      position: absolute;
+      height: 10rem;
+      left: 5%;
+      top: 10%;
+      z-index: -1;
+    }
+    .cake2 {
+      position: absolute;
+      height: 10rem;
+      top: 80%;
+      right: 10%;
+      z-index: -1;
+    }
+    .cake3 {
+      position: absolute;
+      height: 10rem;
+      left: 23%;
+      bottom: -1%;
+    }
+    .cake4 {
+      position: absolute;
+      height: 10rem;
+      left: 17.5%;
+      top: 45%;
+      z-index: -1;
+    }
+    .cake5 {
+      position: absolute;
+      height: 10rem;
+      top: 5%;
+      right: 7%;
+      z-index: -1;
+    }
+    .cake6 {
+      position: absolute;
+      height: 10rem;
+      top: 50%;
+      z-index: -1;
+      left: 73%;
+    }
+    .cake7 {
+      position: absolute;
+      height: 10rem;
+      left: 5%;
+      bottom: 10%;
+      z-index: -1;
     }
   }
 
-  img {
-    position: absolute;
-    height: 30vh;
-    bottom: -20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  .text-box {
+    margin-top: 7.5vh;
+    font-family: "Dancing Script", cursive;
+    z-index: 5;
+    color: rgb(241, 145, 0);
+
+    h1 {
+      font-size: 18rem;
+    }
+    h2 {
+      font-size: 16rem;
+      margin-top: -7.5rem;
+    }
+    h3 {
+      font-size: 14rem;
+      margin-top: -6rem;
+    }
+    p {
+      font-size: 24px;
+      padding: 0rem 20%;
+    }
+  }
+  //btn
+  .btn {
+    background: $second_b;
+    border-radius: 25px;
+    padding: 0.2rem 2.5rem 0.2rem 2.5rem;
+    font-size: 24px;
+    margin-top: 2rem;
+    color: #fff;
+    --animate-duration: 1.5s;
+    font-family: "Dancing Script", cursive;
+    transition: 0.5s all ease-in-out;
+  }
+  .btn:hover {
+    background: $main_b;
+    color: #fff;
   }
 }
 //

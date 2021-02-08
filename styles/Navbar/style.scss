@@ -9,14 +9,17 @@
     background: transparent;
     height: 7.5vh;
     text-align: center;
+    font-family: "Caveat", cursive;
     ul {
       li {
         padding-top: 1.5rem;
         display: inline-block;
         a {
           padding: 0rem 2rem;
+          font-size: 19px;
+          color: white;
           &:hover {
-            color: white;
+            color: rgb(28, 38, 168);
           }
         }
       }
