@@ -35,10 +35,7 @@
 }
 
 //informace
-.informace2 {
-  height: 100vh;
-  background: rgb(97, 79, 79);
-} //swiper
+//swiper
 .informace {
   display: flex;
   flex-direction: column;
@@ -48,11 +45,47 @@
     padding-top: 50px;
     padding-bottom: 50px;
   }
-
   .swiper-slide {
     background-position: center;
     background-size: cover;
     width: 400px;
     height: 400px;
+  }
+}
+.informace2 {
+  height: 70vh;
+  background: rgb(149, 129, 129);
+  .textik {
+    padding-top: 16%;
+    h1 {
+      color: white;
+      font-size: 4rem;
+    }
+    p {
+      letter-spacing: 0.5px;
+      padding-top: 1rem;
+    }
+  }
+}
+
+//objednavky
+//////
+//
+//
+//
+//
+.objednavky {
+  background: rgb(149, 129, 129);
+  height: 100vh;
+  .textik {
+    padding-top: 7%;
+    h1 {
+      color: white;
+      font-size: 4rem;
+    }
+    p {
+      letter-spacing: 0.5px;
+      padding-top: 1rem;
+    }
   }
 }

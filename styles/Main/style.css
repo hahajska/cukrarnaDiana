@@ -50,11 +50,6 @@
   z-index: 1;
 }
 
-.informace2 {
-  height: 100vh;
-  background: #614f4f;
-}
-
 .informace {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -79,5 +74,43 @@
   background-size: cover;
   width: 400px;
   height: 400px;
+}
+
+.informace2 {
+  height: 70vh;
+  background: #958181;
+}
+
+.informace2 .textik {
+  padding-top: 16%;
+}
+
+.informace2 .textik h1 {
+  color: white;
+  font-size: 4rem;
+}
+
+.informace2 .textik p {
+  letter-spacing: 0.5px;
+  padding-top: 1rem;
+}
+
+.objednavky {
+  background: #958181;
+  height: 100vh;
+}
+
+.objednavky .textik {
+  padding-top: 7%;
+}
+
+.objednavky .textik h1 {
+  color: white;
+  font-size: 4rem;
+}
+
+.objednavky .textik p {
+  letter-spacing: 0.5px;
+  padding-top: 1rem;
 }
 /*# sourceMappingURL=style.css.map */
