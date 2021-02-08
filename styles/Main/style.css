@@ -1,3 +1,37 @@
+.uvodka {
+  min-height: 100vh;
+  background: lightcoral;
+  overflow: hidden;
+}
+
+.uvodka .navbar-sekce {
+  background: transparent;
+  height: 7.5vh;
+  text-align: center;
+}
+
+.uvodka .navbar-sekce ul li {
+  padding-top: 1.5rem;
+  display: inline-block;
+}
+
+.uvodka .navbar-sekce ul li a {
+  padding: 0rem 2rem;
+}
+
+.uvodka .navbar-sekce ul li a:hover {
+  color: white;
+}
+
+.uvodka img {
+  position: absolute;
+  height: 30vh;
+  bottom: -20%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
 .main_Content {
   height: 92.5vh;
   z-index: 3;
@@ -96,8 +130,8 @@
 }
 
 .objednavky {
-  background: #958181;
-  height: 100vh;
+  background: #929191;
+  height: auto;
 }
 
 .objednavky .textik {

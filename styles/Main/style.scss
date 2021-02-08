@@ -1,3 +1,35 @@
+.uvodka {
+  min-height: 100vh;
+  background: lightcoral;
+  overflow: hidden;
+  .navbar-sekce {
+    background: transparent;
+    height: 7.5vh;
+    text-align: center;
+    ul {
+      li {
+        padding-top: 1.5rem;
+        display: inline-block;
+        a {
+          padding: 0rem 2rem;
+          &:hover {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+
+  img {
+    position: absolute;
+    height: 30vh;
+    bottom: -20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+//
+//
 .main_Content {
   height: 92.5vh;
   z-index: 3;
@@ -75,8 +107,8 @@
 //
 //
 .objednavky {
-  background: rgb(149, 129, 129);
-  height: 100vh;
+  background: rgb(146, 145, 145);
+  height: auto;
   .textik {
     padding-top: 7%;
     h1 {

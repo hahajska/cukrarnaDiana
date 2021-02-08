@@ -1,28 +1,30 @@
-.main_Nav {
-  background: #d3bcbc;
+.menu-btn {
+  display: none;
+}
+
+.uvodka {
+  min-height: 100vh;
+  background: lightcoral;
+  overflow: hidden;
+}
+
+.uvodka .navbar-sekce {
+  background: transparent;
   height: 7.5vh;
   text-align: center;
 }
 
-.main_Nav ul {
-  padding-right: 10rem;
-}
-
-.main_Nav ul li {
+.uvodka .navbar-sekce ul li {
   padding-top: 1.5rem;
   display: inline-block;
 }
 
-.main_Nav ul li a {
+.uvodka .navbar-sekce ul li a {
   padding: 0rem 2rem;
 }
 
-.main_Nav ul li a:hover {
+.uvodka .navbar-sekce ul li a:hover {
   color: white;
-}
-
-.menu-btn {
-  display: none;
 }
 
 @media (max-width: 790px) {

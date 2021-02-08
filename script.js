@@ -35,7 +35,7 @@ changeColor2.to(".informace", {
 
 //swiper
 
-var swiper = new Swiper(".swiper-container", {
+/* var swiper = new Swiper(".swiper-container", {
   effect: "coverflow",
   grabCursor: true,
   centeredSlides: true,
@@ -51,4 +51,21 @@ var swiper = new Swiper(".swiper-container", {
   pagination: {
     el: ".swiper-pagination",
   },
+}); */
+
+//
+//
+//kafe
+let moveUpper = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".kafe-img",
+    start: "bottom 100%",
+    end: "bottom 80%",
+    scrub: 1,
+    markers: true,
+    toggleActions: "play none reverse none",
+  },
+});
+moveUpper.to(".kafe-img", {
+  y: "-30%",
 });
