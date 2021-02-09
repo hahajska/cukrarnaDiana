@@ -3,8 +3,72 @@
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {
+  .main_Page {
+    height: max-content;
+    .nadpis-box {
+      padding-left: 3rem;
+      h1 {
+        font-size: 3rem;
+        letter-spacing: -1px;
+      }
+      h2 {
+        font-size: 3rem;
+        letter-spacing: -1px;
+        margin-top: -1rem;
+      }
+    }
+  }
+  .a {
+    height: 37.5vh;
+    .about-box {
+      h1 {
+        font-size: 22px;
+      }
+      p {
+        font-size: 12px;
+      }
+    }
+  }
+  .b {
+    height: 10vh;
+    align-items: flex-start;
+    .doba-box {
+      position: absolute;
+      right: 7.5rem;
+      h1 {
+        padding-bottom: 0.25rem;
+        font-size: 18px;
+      }
+      p {
+        font-size: 12px;
+      }
+      .last {
+        padding-top: 0.5rem;
+      }
+    }
+  }
+  .absolute_Img {
+    height: 25vh;
+    img {
+      height: 20rem;
+      width: 15rem;
+      object-fit: cover;
+      position: absolute;
+      top: 20%;
+      left: 30%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  //
 }
 
+// Medium devices (tablets, 768px and up)
+// Medium devices (tablets, 768px and up)
+// Medium devices (tablets, 768px and up)
+// Medium devices (tablets, 768px and up)
+// Medium devices (tablets, 768px and up)
+// Medium devices (tablets, 768px and up)
+// Medium devices (tablets, 768px and up)
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px) {
   .main_Page {
