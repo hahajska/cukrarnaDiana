@@ -1,4 +1,71 @@
 @media (max-width: 575.98px) {
+  .main_Page {
+    height: max-content;
+    border-left: none;
+
+    .nadpis-box {
+      padding-left: 1rem;
+      h1 {
+        font-size: 2rem;
+        letter-spacing: -1px;
+      }
+      h2 {
+        font-size: 2rem;
+        letter-spacing: -1px;
+        margin-top: -1rem;
+      }
+    }
+  }
+  .a {
+    height: 32.5vh;
+
+    .about-box {
+      position: absolute;
+      bottom: 10%;
+      display: flex;
+      flex-direction: column;
+      left: 2rem;
+      h1 {
+        font-size: 22px;
+      }
+      p {
+        font-size: 12px;
+        padding-right: 42%;
+      }
+    }
+  }
+  .b {
+    height: 10vh;
+    align-items: flex-start;
+    .doba-box {
+      position: absolute;
+      right: 3rem;
+      h1 {
+        padding-bottom: 0.25rem;
+        font-size: 18px;
+      }
+      p {
+        font-size: 12px;
+      }
+      .last {
+        padding-top: 0.5rem;
+      }
+    }
+  }
+  .absolute_Img {
+    border-left: none;
+    height: 45vh;
+    img {
+      height: 17.5rem;
+      width: 20rem;
+      object-fit: cover;
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  //
 }
 
 // Small devices (landscape phones, 576px and up)

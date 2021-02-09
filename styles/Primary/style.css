@@ -18,4 +18,13 @@
 * a {
   text-decoration: none !important;
 }
+
+.starter {
+  background: transparent;
+  height: 1px;
+  width: 1px;
+  position: absolute;
+  top: 40%;
+  z-index: 20;
+}
 /*# sourceMappingURL=style.css.map */

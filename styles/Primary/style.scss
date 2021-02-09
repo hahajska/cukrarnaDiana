@@ -36,3 +36,13 @@ $dark_white: #f5f5f5;
 $black: #080808;
 $grey: #424656;
 $white: #fff;
+//
+
+.starter {
+  background: transparent;
+  height: 1px;
+  width: 1px;
+  position: absolute;
+  top: 40%;
+  z-index: 20;
+}

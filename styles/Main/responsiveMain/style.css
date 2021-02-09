@@ -1,3 +1,81 @@
+@media (max-width: 575.98px) {
+  .main_Page {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    border-left: none;
+  }
+  .main_Page .nadpis-box {
+    padding-left: 1rem;
+  }
+  .main_Page .nadpis-box h1 {
+    font-size: 2rem;
+    letter-spacing: -1px;
+  }
+  .main_Page .nadpis-box h2 {
+    font-size: 2rem;
+    letter-spacing: -1px;
+    margin-top: -1rem;
+  }
+  .a {
+    height: 32.5vh;
+  }
+  .a .about-box {
+    position: absolute;
+    bottom: 10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    left: 2rem;
+  }
+  .a .about-box h1 {
+    font-size: 22px;
+  }
+  .a .about-box p {
+    font-size: 12px;
+    padding-right: 42%;
+  }
+  .b {
+    height: 10vh;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .b .doba-box {
+    position: absolute;
+    right: 3rem;
+  }
+  .b .doba-box h1 {
+    padding-bottom: 0.25rem;
+    font-size: 18px;
+  }
+  .b .doba-box p {
+    font-size: 12px;
+  }
+  .b .doba-box .last {
+    padding-top: 0.5rem;
+  }
+  .absolute_Img {
+    border-left: none;
+    height: 45vh;
+  }
+  .absolute_Img img {
+    height: 17.5rem;
+    width: 20rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+}
+
 @media (min-width: 576px) and (max-width: 767.98px) {
   .main_Page {
     height: -webkit-max-content;
