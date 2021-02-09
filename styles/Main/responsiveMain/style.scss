@@ -1,0 +1,190 @@
+@media (max-width: 575.98px) {
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .main_Page {
+    height: 90vh;
+    .nadpis-box {
+      padding-top: 14vh;
+      padding-left: 3rem;
+      h1 {
+        font-size: 5rem;
+        letter-spacing: 0px;
+      }
+      h2 {
+        font-size: 5rem;
+        letter-spacing: 0px;
+      }
+    }
+  }
+  .a {
+    height: 25vh;
+    .about-box {
+      h1 {
+        font-size: 24px;
+      }
+      p {
+        font-size: 13px;
+      }
+    }
+  }
+  .b {
+    align-items: flex-start;
+    height: 10vh;
+    .doba-box {
+      position: absolute;
+      right: 7rem;
+      h1 {
+        padding-bottom: 0.25rem;
+        font-size: 20px;
+      }
+      p {
+        font-size: 13px;
+      }
+      .last {
+        padding-top: 0.5rem;
+      }
+    }
+  }
+
+  .absolute_Img {
+    height: 25vh;
+    img {
+      height: 30rem;
+      object-fit: cover;
+      width: 25rem;
+      position: absolute;
+      top: -10%;
+      left: 35%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  //
+}
+
+// Large devices (desktops, 992px and up)
+// Large devices (desktops, 992px and up)
+// Large devices (desktops, 992px and up)
+// Large devices (desktops, 992px and up)
+// Large devices (desktops, 992px and up)
+// Large devices (desktops, 992px and up)
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .main_Page {
+    height: 90vh;
+    .nadpis-box {
+      padding-top: 14vh;
+      padding-left: 3rem;
+      h1 {
+        font-size: 6.5rem;
+        letter-spacing: 0px;
+      }
+      h2 {
+        font-size: 6rem;
+        letter-spacing: 0px;
+      }
+    }
+  }
+
+  .a {
+    .about-box {
+      top: 30%;
+
+      p {
+        padding-right: 22%;
+      }
+    }
+  }
+
+  .b {
+    height: 50vh;
+    display: flex;
+    .doba-box {
+      top: 38%;
+      h1 {
+        padding-bottom: 0.5rem;
+      }
+      .last {
+        padding-top: 0.5rem;
+      }
+    }
+  }
+
+  .absolute_Img {
+    border-left: 0.5px solid rgb(177, 177, 177);
+    height: 50vh;
+    position: relative;
+    img {
+      height: 25rem;
+      position: absolute;
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  //
+}
+
+// Extra large devices (large desktops, 1200px and up)
+// Extra large devices (large desktops, 1200px and up)
+// Extra large devices (large desktops, 1200px and up)
+// Extra large devices (large desktops, 1200px and up)
+// Extra large devices (large desktops, 1200px and up)
+// Extra large devices (large desktops, 1200px and up)
+// Extra large devices (large desktops, 1200px and up)
+// Extra large devices (large desktops, 1200px and up)
+// Extra large devices (large desktops, 1200px and up)
+// Extra large devices (large desktops, 1200px and up)
+// Extra large devices (large desktops, 1200px and up)
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) and (max-width: 1479.98px) {
+  .main_Page {
+    height: 90vh;
+    .nadpis-box {
+      padding-top: 14vh;
+      padding-left: 3rem;
+      h1 {
+        font-size: 7rem;
+      }
+      h2 {
+        font-size: 7rem;
+      }
+    }
+  }
+
+  .a {
+    .about-box {
+      bottom: 40%;
+
+      p {
+        padding-right: 40%;
+      }
+    }
+  }
+  .b {
+    .doba-box {
+      top: 35%;
+      h1 {
+        padding-bottom: 0.5rem;
+      }
+      .last {
+        padding-top: 0.5rem;
+      }
+    }
+  }
+  .absolute_Img {
+    img {
+      top: 30%;
+      left: 50%;
+    }
+  }
+  //@at-root
+}
+//
+
+//

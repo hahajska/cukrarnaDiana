@@ -1,321 +1,89 @@
-//colors
-$main_b: #0079e9;
-$second_b: #2a98fe;
-//
-////
-////
-////
-////
-////
-////
-////
-////
-////
-//
-.uvodka {
-  min-height: 100vh;
-  overflow: hidden;
-  background: #9ddcdc;
-  z-index: 5;
-
-  .image-box {
-    .cake1 {
-      position: absolute;
-      height: 10rem;
-      left: 5%;
-      top: 10%;
-      z-index: -1;
-    }
-    .cake2 {
-      position: absolute;
-      height: 10rem;
-      top: 80%;
-      right: 10%;
-      z-index: -1;
-    }
-    .cake3 {
-      position: absolute;
-      height: 10rem;
-      left: 23%;
-      bottom: -1%;
-    }
-    .cake4 {
-      position: absolute;
-      height: 10rem;
-      left: 17.5%;
-      top: 45%;
-      z-index: -1;
-    }
-    .cake5 {
-      position: absolute;
-      height: 10rem;
-      top: 5%;
-      right: 7%;
-      z-index: -1;
-    }
-    .cake6 {
-      position: absolute;
-      height: 10rem;
-      top: 50%;
-      z-index: -1;
-      left: 73%;
-    }
-    .cake7 {
-      position: absolute;
-      height: 10rem;
-      left: 5%;
-      bottom: 10%;
-      z-index: -1;
-    }
-  }
-
-  .text-box {
-    margin-top: 7.5vh;
-    font-family: "Dancing Script", cursive;
-    z-index: 5;
-    color: rgb(221, 137, 11);
+.main_Page {
+  height: 90vh;
+  border-left: 0.5px solid rgb(177, 177, 177);
+  .nadpis-box {
+    padding-top: 12vh;
+    padding-left: 2rem;
 
     h1 {
-      font-size: 18rem;
+      font-family: "EB Garamond", serif;
+      font-size: 9rem;
+      font-weight: 200;
+      letter-spacing: 8px;
     }
     h2 {
-      font-size: 16rem;
-      margin-top: -7.5rem;
+      font-family: "EB Garamond", serif;
+      font-size: 9rem;
+      font-weight: 200;
+      margin-top: -2.5rem;
+      letter-spacing: 8px;
     }
-    h3 {
-      font-size: 14rem;
-      margin-top: -6rem;
+  }
+}
+
+.a {
+  height: 50vh;
+  position: relative;
+  padding-left: 5rem;
+  .about-box {
+    position: absolute;
+    bottom: 30%;
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+      font-family: "EB Garamond", serif;
+
+      font-weight: 100;
+      font-size: 28px;
     }
     p {
-      font-size: 24px;
-      padding: 0rem 20%;
-    }
-  }
-  //btn
-  .btn {
-    background: $second_b;
-    border-radius: 25px;
-    padding: 0.2rem 2.5rem 0.2rem 2.5rem;
-    font-size: 24px;
-    margin-top: 2rem;
-    color: #fff;
-    --animate-duration: 1.5s;
-    font-family: "Dancing Script", cursive;
-    transition: 0.5s all ease-in-out;
-  }
-  .btn:hover {
-    background: $main_b;
-    color: #fff;
-  }
-}
-//
-//
-.main_Content {
-  height: 92.5vh;
-  z-index: 3;
-  .bigText-box {
-    padding-top: 3rem;
-    .bigText {
-      font-size: 18rem;
-      line-height: 15rem;
+      font-size: 14px;
+      font-family: "EB Garamond", serif;
+      font-weight: 300;
+      word-spacing: -1px;
+      letter-spacing: 0px;
+      padding-right: 60%;
+      margin-top: -0.5rem;
     }
   }
 }
-.main_Content2 {
-  height: 92.5vh;
-  background: rgb(97, 79, 79);
-  position: relative;
+
+.b {
+  height: 50vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  overflow-x: hidden;
-  .cakeAbsolute1 {
-    height: 22rem;
-    width: 40rem;
-    object-fit: cover;
-    margin-top: -1rem;
-    z-index: 1;
-  }
-  .cakeAbsolute {
-    height: 22rem;
-    width: 40rem;
-    object-fit: cover;
-    margin-top: 2rem;
-    z-index: 1;
-  }
-}
-
-//informace
-//swiper
-.informace {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  .swiper-container {
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-  .swiper-slide {
-    background-position: center;
-    background-size: cover;
-    width: 400px;
-    height: 400px;
-  }
-}
-.informace2 {
-  height: 70vh;
-  background: rgb(149, 129, 129);
-  .textik {
-    padding-top: 16%;
+  .doba-box {
     h1 {
-      color: white;
-      font-size: 4rem;
+      font-family: "EB Garamond", serif;
+
+      font-weight: 100;
+      font-size: 22px;
     }
     p {
-      letter-spacing: 0.5px;
-      padding-top: 1rem;
+      font-size: 14px;
+      font-family: "EB Garamond", serif;
+      font-weight: 300;
+      word-spacing: -1px;
+      letter-spacing: 0px;
+      margin-top: -0.5rem;
+    }
+    .last {
+      margin-top: -1.25rem;
     }
   }
 }
 
-//objednavky
-//////
-//
-//
-//
-//
-.objednavky {
-  background: rgb(146, 145, 145);
-  height: auto;
-  .textik {
-    padding-top: 7%;
-    h1 {
-      color: white;
-      font-size: 4rem;
-    }
-    p {
-      letter-spacing: 0.5px;
-      padding-top: 1rem;
-    }
-  }
-}
-//
-//
-//
-//
-//
-//
-
-//
-//
-//
-//
-//
-
-//
-//
-//
-
-//
-//
-//
-
-//
-
-//
-//
-//
-//
-//
-
-//
-//
-
-//
-//
-////
-.sipka {
-  margin-top: -20rem;
-  .card {
-    position: relative;
-    box-sizing: border-box;
-    margin: 15px 50px;
-    width: 100%;
-    height: 500px;
-    border-radius: 4px;
-    background-size: cover !important;
-    background-position: center !important;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 50px;
-    background: url(../images/concrete-road-surrounded-by-trees-831243.jpg);
-  }
-  .card__content {
-    font-family: monospace;
-    font-weight: 600;
-    color: #999999;
-    line-height: 30px;
-    font-size: 1rem;
-  }
-  /* Common Mouse Scroll Ele */
-  .scroll-down {
+.absolute_Img {
+  border-left: 0.5px solid rgb(177, 177, 177);
+  height: 50vh;
+  position: relative;
+  img {
+    height: 25rem;
     position: absolute;
-    bottom: 50px;
-    left: 50%;
-    width: 75px;
-    height: 80px;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    bottom: 0;
-    transform: translateX(-50%);
-  }
-  .scroll-down > label {
-    pointer-events: none;
-    font-family: monospace;
-    font-weight: 600;
-    font-size: 1.1rem;
-    color: #dffffd;
-  }
-
-  .scroll-down {
-    height: 100px;
-  }
-  .scroll-down span {
-    position: relative;
-    display: inline-block;
-    width: 30px;
-    height: 60px;
-    border: 2px solid #f90;
-    border-radius: 50px;
-    top: 5px;
-  }
-  .scroll-down span::after {
-    position: absolute;
-    content: "";
-    top: 10px;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    width: 6px;
-    height: 6px;
-    border-radius: 100%;
-    background: #fff;
-    animation: animateMousePointer 1.5s infinite;
-  }
-  @keyframes animateMousePointer {
-    0% {
-      transform: translateY(0);
-    }
-    50% {
-      opacity: 0.7;
-    }
-    100% {
-      opacity: 0;
-      transform: translateY(20px);
-    }
+    top: 20%;
+    left: 47%;
+    transform: translate(-50%, -50%);
   }
 }

@@ -1,42 +1,49 @@
+.main_Nav {
+  background: #fff;
+  position: relative;
+  height: 7vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 0.5px solid #b1b1b1;
+}
+
+.main_Nav ul li {
+  display: inline-block;
+  padding-top: 1.25rem;
+}
+
+.main_Nav ul li a {
+  padding: 0rem 0.75rem;
+  color: #3b3b3b;
+  font-size: 11px;
+}
+
+.main_Nav ul li a:hover {
+  color: black;
+}
+
+.fx1 {
+  position: fixed;
+  z-index: 2;
+}
+
 .menu-btn {
   display: none;
 }
 
-.uvodka {
-  min-height: 100vh;
-  background: lightcoral;
-  overflow: hidden;
-}
-
-.uvodka .navbar-sekce {
-  background: transparent;
-  height: 7.5vh;
-  text-align: center;
-  font-family: "Caveat", cursive;
-}
-
-.uvodka .navbar-sekce ul li {
-  padding-top: 1.5rem;
-  display: inline-block;
-}
-
-.uvodka .navbar-sekce ul li a {
-  padding: 0rem 2rem;
-  font-size: 19px;
-  color: white;
-}
-
-.uvodka .navbar-sekce ul li a:hover {
-  color: #1c26a8;
-}
-
-@media (max-width: 790px) {
+@media (max-width: 720px) {
   .menu-btn {
-    display: block;
     position: absolute;
     top: 1.75rem;
-    right: 1rem;
-    cursor: pointer;
+    right: 2rem;
+    display: block;
   }
   ul {
     display: none;

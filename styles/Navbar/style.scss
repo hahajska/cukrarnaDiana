@@ -1,39 +1,42 @@
-.menu-btn {
-  display: none;
-}
-.uvodka {
-  min-height: 100vh;
-  background: lightcoral;
-  overflow: hidden;
-  .navbar-sekce {
-    background: transparent;
-    height: 7.5vh;
-    text-align: center;
-    font-family: "Caveat", cursive;
-    ul {
-      li {
-        padding-top: 1.5rem;
-        display: inline-block;
-        a {
-          padding: 0rem 2rem;
-          font-size: 19px;
-          color: white;
-          &:hover {
-            color: rgb(28, 38, 168);
-          }
+.main_Nav {
+  background: #fff;
+  position: relative;
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 0.5px solid rgb(177, 177, 177);
+  ul {
+    li {
+      display: inline-block;
+      padding-top: 1.25rem;
+      a {
+        padding: 0rem 0.75rem;
+        color: rgb(59, 59, 59);
+        font-size: 11px;
+        &:hover {
+          color: rgb(0, 0, 0);
         }
       }
     }
   }
 }
 
-@media (max-width: 790px) {
+.fx1 {
+  position: fixed;
+  z-index: 2;
+}
+
+.menu-btn {
+  display: none;
+}
+
+@media (max-width: 720px) {
   .menu-btn {
-    display: block;
     position: absolute;
     top: 1.75rem;
-    right: 1rem;
-    cursor: pointer;
+    right: 2rem;
+    display: block;
   }
   ul {
     display: none;
