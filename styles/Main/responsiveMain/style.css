@@ -3,13 +3,7 @@
     display: none;
   }
   .katalog {
-    height: 4rem;
-    width: 4rem;
-    right: 3rem;
-    top: 12.5rem;
-  }
-  .katalog p {
-    font-size: 11px;
+    display: none;
   }
   .main_Page {
     height: -webkit-max-content;
@@ -30,11 +24,11 @@
     margin-top: -1rem;
   }
   .a {
-    height: 32.5vh;
+    height: 20vh;
   }
   .a .about-box {
     position: absolute;
-    bottom: 10%;
+    top: 10%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -97,6 +91,15 @@
   .katalog p {
     font-size: 13px;
   }
+  .btn-objednat {
+    right: 10%;
+    top: 40%;
+    height: 5rem;
+    width: 5rem;
+  }
+  .btn-objednat p {
+    font-size: 11px;
+  }
   .main_Page {
     height: -webkit-max-content;
     height: -moz-max-content;
@@ -115,7 +118,7 @@
     margin-top: -1rem;
   }
   .a {
-    height: 37.5vh;
+    height: 27.5vh;
   }
   .a .about-box h1 {
     font-size: 22px;
@@ -167,6 +170,15 @@
   }
   .katalog p {
     font-size: 13px;
+  }
+  .btn-objednat {
+    right: 20%;
+    top: 40%;
+    height: 5rem;
+    width: 5rem;
+  }
+  .btn-objednat p {
+    font-size: 11px;
   }
   .main_Page {
     height: 90vh;
@@ -237,6 +249,9 @@
   .katalog p {
     font-size: 14px;
   }
+  .btn-objednat {
+    right: -25%;
+  }
   .main_Page {
     height: 90vh;
   }
@@ -297,6 +312,9 @@
   .katalog p {
     font-size: 14px;
   }
+  .btn-objednat {
+    right: -15%;
+  }
   .main_Page {
     height: 90vh;
   }
@@ -308,7 +326,7 @@
     font-size: 7rem;
   }
   .main_Page .nadpis-box h2 {
-    font-size: 7rem;
+    font-size: 6.8rem;
   }
   .a .about-box {
     bottom: 40%;

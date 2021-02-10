@@ -28,7 +28,7 @@ if (mediaQuery.matches) {
       end: "bottom 5%",
       delay: 0.5,
       scrub: 2,
-      markers: true,
+      markers: false,
       toggleActions: "play none reverse none",
     },
   });
