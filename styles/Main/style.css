@@ -4,10 +4,10 @@
   width: 10rem;
   border-radius: 50%;
   background: #e01616;
-  top: 9rem;
+  top: 7rem;
   -webkit-box-shadow: -20px 20px 60px #555454, 20px -20px 60px #e4e4e4;
           box-shadow: -20px 20px 60px #555454, 20px -20px 60px #e4e4e4;
-  right: 7rem;
+  right: 6rem;
   cursor: pointer;
 }
 
@@ -53,6 +53,7 @@
 .main_Page {
   height: 90vh;
   border-left: 0.5px solid #b1b1b1;
+  overflow: hidden;
 }
 
 .main_Page .nadpis-box {
@@ -107,6 +108,8 @@
   letter-spacing: 0px;
   padding-right: 60%;
   margin-top: -0.5rem;
+  padding-left: 0.4rem;
+  border-left: 3px solid #e01616;
 }
 
 .b {
@@ -135,10 +138,12 @@
   word-spacing: -1px;
   letter-spacing: 0px;
   margin-top: -0.5rem;
+  padding-right: 0.5rem;
 }
 
 .b .doba-box .last {
   margin-top: -1.25rem;
+  border-bottom: 3px solid #1c2d90;
 }
 
 .absolute_Img {

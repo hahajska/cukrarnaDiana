@@ -1,4 +1,16 @@
 @media (max-width: 575.98px) {
+  .btn-objednat {
+    display: none;
+  }
+  .katalog {
+    height: 4rem;
+    width: 4rem;
+    right: 3rem;
+    top: 12.5rem;
+  }
+  .katalog p {
+    font-size: 11px;
+  }
   .main_Page {
     height: -webkit-max-content;
     height: -moz-max-content;
@@ -77,6 +89,14 @@
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+  .katalog {
+    height: 6.5rem;
+    width: 6.5rem;
+    right: 1.5rem;
+  }
+  .katalog p {
+    font-size: 13px;
+  }
   .main_Page {
     height: -webkit-max-content;
     height: -moz-max-content;
@@ -140,6 +160,14 @@
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+  .katalog {
+    height: 6.5rem;
+    width: 6.5rem;
+    right: 1.5rem;
+  }
+  .katalog p {
+    font-size: 13px;
+  }
   .main_Page {
     height: 90vh;
   }
@@ -201,6 +229,14 @@
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  .katalog {
+    height: 7.5rem;
+    width: 7.5rem;
+    right: 1.5rem;
+  }
+  .katalog p {
+    font-size: 14px;
+  }
   .main_Page {
     height: 90vh;
   }
@@ -253,6 +289,14 @@
 }
 
 @media (min-width: 1200px) and (max-width: 1479.98px) {
+  .katalog {
+    height: 8.5rem;
+    width: 8.5rem;
+    right: 3rem;
+  }
+  .katalog p {
+    font-size: 14px;
+  }
   .main_Page {
     height: 90vh;
   }

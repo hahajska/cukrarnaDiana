@@ -1,12 +1,16 @@
+$main_b: rgb(28, 45, 144);
+$main_r: #e01616;
+
+//btns
 .katalog {
   position: absolute;
   height: 10rem;
   width: 10rem;
   border-radius: 50%;
-  background: #e01616;
-  top: 9rem;
+  background: $main_r;
+  top: 7rem;
   box-shadow: -20px 20px 60px #555454, 20px -20px 60px #e4e4e4;
-  right: 7rem;
+  right: 6rem;
   cursor: pointer;
   p {
     position: absolute;
@@ -23,7 +27,7 @@
   height: 6rem;
   width: 6rem;
   border-radius: 50%;
-  background: rgb(28, 45, 144);
+  background: $main_b;
   box-shadow: 20px 20px 60px #555454, -20px -20px 60px #e4e4e4;
   position: absolute;
   top: 25%;
@@ -48,6 +52,7 @@
 .main_Page {
   height: 90vh;
   border-left: 0.5px solid rgb(177, 177, 177);
+  overflow: hidden;
   .nadpis-box {
     padding-top: 12vh;
     padding-left: 2rem;
@@ -80,7 +85,6 @@
 
     h1 {
       font-family: "EB Garamond", serif;
-
       font-weight: 100;
       font-size: 28px;
     }
@@ -92,6 +96,8 @@
       letter-spacing: 0px;
       padding-right: 60%;
       margin-top: -0.5rem;
+      padding-left: 0.4rem;
+      border-left: 3px solid $main_r;
     }
   }
 }
@@ -115,9 +121,11 @@
       word-spacing: -1px;
       letter-spacing: 0px;
       margin-top: -0.5rem;
+      padding-right: 0.5rem;
     }
     .last {
       margin-top: -1.25rem;
+      border-bottom: 3px solid $main_b;
     }
   }
 }

@@ -3,6 +3,40 @@ const mediaQuery = window.matchMedia("(min-width: 992px)");
 // Check if the media query is true
 if (mediaQuery.matches) {
   // Then trigger an alert
+
+  //btns-move
+
+  let moveBtns = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".starter",
+      start: "bottom 32.5%",
+      end: "bottom 5%",
+      delay: 0.5,
+      scrub: 2,
+      markers: false,
+      toggleActions: "play none reverse none",
+    },
+  });
+
+  moveBtns.fromTo(".katalog", { y: "0px" }, { y: "-100px" });
+  //
+
+  let moveBtns2 = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".starter",
+      start: "bottom 27.5%",
+      end: "bottom 5%",
+      delay: 0.5,
+      scrub: 2,
+      markers: true,
+      toggleActions: "play none reverse none",
+    },
+  });
+
+  moveBtns2.fromTo(".btn-objednat", { y: "0px" }, { y: "-75px", x: "0px" });
+
+  //textuop
+
   let moveUp = gsap.timeline({
     scrollTrigger: {
       trigger: ".starter",
@@ -36,15 +70,15 @@ if (mediaQuery.matches) {
   let moveUp3 = gsap.timeline({
     scrollTrigger: {
       trigger: ".starter",
-      start: "bottom 37.5%",
-      end: "bottom 25%",
+      start: "bottom 32.5%",
+      end: "bottom 15%",
       delay: 0.5,
       scrub: 2,
       markers: false,
       toggleActions: "play none reverse none",
     },
   });
-  moveUp3.fromTo(".doba-box", { y: "0px" }, { y: "-75px" });
+  moveUp3.fromTo(".doba-box", { y: "0px" }, { y: "-105px" });
 
   //
 
