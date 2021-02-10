@@ -19,12 +19,26 @@
   text-decoration: none !important;
 }
 
+body {
+  background: #e9e9e9;
+}
+
 .starter {
   background: transparent;
   height: 1px;
   width: 1px;
   position: absolute;
   top: 40%;
+  z-index: 20;
+}
+
+.starter2 {
+  background: transparent;
+  height: 1px;
+  width: 1px;
+  position: absolute;
+  top: 105%;
+  left: 20px;
   z-index: 20;
 }
 /*# sourceMappingURL=style.css.map */

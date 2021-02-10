@@ -1,3 +1,55 @@
+.katalog {
+  position: absolute;
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  background: #e01616;
+  top: 9rem;
+  -webkit-box-shadow: -20px 20px 60px #555454, 20px -20px 60px #e4e4e4;
+          box-shadow: -20px 20px 60px #555454, 20px -20px 60px #e4e4e4;
+  right: 7rem;
+  cursor: pointer;
+}
+
+.katalog p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-family: "EB Garamond", serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.btn-objednat {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  background: #1c2d90;
+  -webkit-box-shadow: 20px 20px 60px #555454, -20px -20px 60px #e4e4e4;
+          box-shadow: 20px 20px 60px #555454, -20px -20px 60px #e4e4e4;
+  position: absolute;
+  top: 25%;
+  right: 5%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.btn-objednat p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-family: "EB Garamond", serif;
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: white;
+}
+
 .main_Page {
   height: 90vh;
   border-left: 0.5px solid #b1b1b1;
@@ -102,5 +154,7 @@
   left: 47%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  -webkit-box-shadow: -20px 20px 60px #bebebe, 20px -20px 60px #ffffff;
+          box-shadow: -20px 20px 60px #bebebe, 20px -20px 60px #ffffff;
 }
 /*# sourceMappingURL=style.css.map */

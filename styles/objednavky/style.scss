@@ -1,0 +1,75 @@
+.objednavky {
+  height: 50vh;
+  border-left: 0.5px solid rgb(177, 177, 177);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .objednavka {
+    height: max-content;
+    padding: 3rem 0rem;
+    .zakusky {
+      padding-left: 5rem;
+      h1 {
+        font-family: "EB Garamond", serif;
+
+        font-weight: 100;
+        font-size: 28px;
+      }
+      p {
+        font-size: 14px;
+        font-family: "EB Garamond", serif;
+        font-weight: 300;
+        word-spacing: -1px;
+        letter-spacing: 0px;
+        padding-right: 12rem;
+        margin-top: -0.5rem;
+      }
+    }
+    .dorty {
+      padding-left: 5rem;
+      h1 {
+        font-family: "EB Garamond", serif;
+
+        font-weight: 100;
+        font-size: 28px;
+      }
+      p {
+        font-size: 14px;
+        font-family: "EB Garamond", serif;
+        font-weight: 300;
+        word-spacing: -1px;
+        letter-spacing: 0px;
+        padding-right: 12rem;
+        margin-top: -0.5rem;
+      }
+    }
+    .chlebicky {
+      padding-left: 5rem;
+      h1 {
+        font-family: "EB Garamond", serif;
+
+        font-weight: 100;
+        font-size: 28px;
+      }
+      p {
+        font-size: 14px;
+        font-family: "EB Garamond", serif;
+        font-weight: 300;
+        word-spacing: -1px;
+        letter-spacing: 0px;
+        padding-right: 12rem;
+        margin-top: -0.5rem;
+      }
+    }
+  }
+}
+//@at-root
+@media (max-width: 990px) {
+  .objednavka_First {
+    height: max-content;
+    margin-top: 15rem;
+  }
+  .objednavka {
+    padding: 1.5rem 0rem;
+  }
+}

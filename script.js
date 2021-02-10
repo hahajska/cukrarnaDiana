@@ -6,8 +6,8 @@ if (mediaQuery.matches) {
   let moveUp = gsap.timeline({
     scrollTrigger: {
       trigger: ".starter",
-      start: "bottom 40%",
-      end: "bottom 20%",
+      start: "bottom 37.5%",
+      end: "bottom 5%",
       delay: 0.5,
       scrub: 2,
       markers: false,
@@ -15,7 +15,7 @@ if (mediaQuery.matches) {
     },
   });
 
-  moveUp.fromTo(".cake_Img", { y: "10px" }, { y: "-90px" });
+  moveUp.fromTo(".cake_Img", { y: "10px" }, { y: "-110px" });
 
   let moveUp2 = gsap.timeline({
     scrollTrigger: {
@@ -44,6 +44,54 @@ if (mediaQuery.matches) {
       toggleActions: "play none reverse none",
     },
   });
+  moveUp3.fromTo(".doba-box", { y: "0px" }, { y: "-75px" });
 
-  moveUp3.fromTo(".doba-box", { y: "0px" }, { y: "-30px" });
+  //
+
+  //objednavky-box
+  //objednavky-box
+  //objednavky-box
+  //objednavky-box
+  let objednavka1 = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".starter2",
+      start: "bottom 37.5%",
+      end: "bottom 25%",
+      scrub: 2,
+      duration: 3,
+      markers: false,
+      toggleActions: "play none reverse none",
+    },
+  });
+
+  objednavka1.fromTo(".zakusky", { y: "50px" }, { y: "-200px" });
+
+  let objednavka2 = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".starter2",
+      start: "bottom 30.5%",
+      end: "bottom 18%",
+      scrub: 2,
+      duration: 3,
+      toggleActions: "play none reverse none",
+    },
+  });
+
+  objednavka2.fromTo(".dorty", { y: "50px" }, { y: "-150px" });
+
+  let objednavka3 = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".starter2",
+      start: "bottom 25%",
+      end: "bottom 13.5%",
+      scrub: 2,
+      duration: 3,
+      markers: false,
+      toggleActions: "play none reverse none",
+    },
+  });
+
+  objednavka3.fromTo(".chlebicky", { y: "50px" }, { y: "-100px" });
 }
+
+//

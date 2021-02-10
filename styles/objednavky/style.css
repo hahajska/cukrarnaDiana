@@ -1,0 +1,93 @@
+.objednavky {
+  height: 50vh;
+  border-left: 0.5px solid #b1b1b1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.objednavky .objednavka {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  padding: 3rem 0rem;
+}
+
+.objednavky .objednavka .zakusky {
+  padding-left: 5rem;
+}
+
+.objednavky .objednavka .zakusky h1 {
+  font-family: "EB Garamond", serif;
+  font-weight: 100;
+  font-size: 28px;
+}
+
+.objednavky .objednavka .zakusky p {
+  font-size: 14px;
+  font-family: "EB Garamond", serif;
+  font-weight: 300;
+  word-spacing: -1px;
+  letter-spacing: 0px;
+  padding-right: 12rem;
+  margin-top: -0.5rem;
+}
+
+.objednavky .objednavka .dorty {
+  padding-left: 5rem;
+}
+
+.objednavky .objednavka .dorty h1 {
+  font-family: "EB Garamond", serif;
+  font-weight: 100;
+  font-size: 28px;
+}
+
+.objednavky .objednavka .dorty p {
+  font-size: 14px;
+  font-family: "EB Garamond", serif;
+  font-weight: 300;
+  word-spacing: -1px;
+  letter-spacing: 0px;
+  padding-right: 12rem;
+  margin-top: -0.5rem;
+}
+
+.objednavky .objednavka .chlebicky {
+  padding-left: 5rem;
+}
+
+.objednavky .objednavka .chlebicky h1 {
+  font-family: "EB Garamond", serif;
+  font-weight: 100;
+  font-size: 28px;
+}
+
+.objednavky .objednavka .chlebicky p {
+  font-size: 14px;
+  font-family: "EB Garamond", serif;
+  font-weight: 300;
+  word-spacing: -1px;
+  letter-spacing: 0px;
+  padding-right: 12rem;
+  margin-top: -0.5rem;
+}
+
+@media (max-width: 990px) {
+  .objednavka_First {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    margin-top: 15rem;
+  }
+  .objednavka {
+    padding: 1.5rem 0rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */

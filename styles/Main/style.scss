@@ -1,3 +1,50 @@
+.katalog {
+  position: absolute;
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  background: #e01616;
+  top: 9rem;
+  box-shadow: -20px 20px 60px #555454, 20px -20px 60px #e4e4e4;
+  right: 7rem;
+  cursor: pointer;
+  p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "EB Garamond", serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: white;
+  }
+}
+.btn-objednat {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  background: rgb(28, 45, 144);
+  box-shadow: 20px 20px 60px #555454, -20px -20px 60px #e4e4e4;
+  position: absolute;
+  top: 25%;
+  right: 5%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "EB Garamond", serif;
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: white;
+  }
+}
+
+//btns
+
+//
 .main_Page {
   height: 90vh;
   border-left: 0.5px solid rgb(177, 177, 177);
@@ -85,5 +132,6 @@
     top: 20%;
     left: 47%;
     transform: translate(-50%, -50%);
+    box-shadow: -20px 20px 60px #bebebe, 20px -20px 60px #ffffff;
   }
 }
